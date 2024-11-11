@@ -8,8 +8,10 @@ local Drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeffr
 
 local repo = 'https://raw.githubusercontent.com/LionTheGreatRealFrFr/MobileLinoriaLib/main/'
 
-
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
+local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
+local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
+
 
 
 Library:Notify('Script Loading')
